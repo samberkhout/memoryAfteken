@@ -1,0 +1,18 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="memoryAfteken.pagina.GamePage"
+             Title="Memory Game">
+
+    <StackLayout>
+        <Label x:Name="ScoreLabel" Text="Score: 0" FontSize="Large" HorizontalOptions="Center" />
+        <ScrollView>
+            <Grid x:Name="CardGrid"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"
+                  RowSpacing="10"
+                  ColumnSpacing="10">
+                <!-- Cards will be added dynamically -->
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
