@@ -5,12 +5,12 @@ namespace memoryAfteken.Controls
 {
     public class FlipCardView : Grid
     {
-        private readonly BoxView _frontView;
-        private readonly BoxView _backView;
+        private readonly Image _frontImage;
+        private readonly Image _backImage;
 
         public int CardIndex { get; set; }
 
-        public FlipCardView(Color frontColor, Color backColor)
+        public FlipCardView(string frontImageSource, string backImageSource = "back_of_card.png")
         {
             AnchorX = 0.5;
             AnchorY = 0.5;
@@ -18,24 +18,26 @@ namespace memoryAfteken.Controls
             // Initialize rotation
             RotationY = 0;
 
-            // Set the back view (e.g., the back of the card)
-            _backView = new BoxView
+            // Set the back image (e.g., the back of the card)
+            _backImage = new Image
             {
-                Color = backColor,
+                Source = backImageSource,
+                Aspect = Aspect.AspectFill,
                 IsVisible = true
             };
 
-            // Set the front view (the face of the card)
-            _frontView = new BoxView
+            // Set the front image (the face of the card)
+            _frontImage = new Image
             {
-                Color = frontColor,
+                Source = frontImageSource,
+                Aspect = Aspect.AspectFill,
                 IsVisible = false
             };
 
-            // Add views to the grid
-            // Ensure _backView is added before _frontView
-            Children.Add(_backView);
-            Children.Add(_frontView);
+            // Add images to the grid
+            // Ensure _backImage is added before _frontImage
+            Children.Add(_backImage);
+            Children.Add(_frontImage);
         }
 
         public async Task FlipToFront()
@@ -44,8 +46,8 @@ namespace memoryAfteken.Controls
             this.RotationY = 0;
 
             await this.RotateYTo(90, 150, Easing.Linear);
-            _backView.IsVisible = false;
-            _frontView.IsVisible = true;
+            _backImage.IsVisible = false;
+            _frontImage.IsVisible = true;
             this.RotationY = -90;
             await this.RotateYTo(0, 150, Easing.Linear);
         }
@@ -56,8 +58,8 @@ namespace memoryAfteken.Controls
             this.RotationY = 0;
 
             await this.RotateYTo(90, 150, Easing.Linear);
-            _frontView.IsVisible = false;
-            _backView.IsVisible = true;
+            _frontImage.IsVisible = false;
+            _backImage.IsVisible = true;
             this.RotationY = -90;
             await this.RotateYTo(0, 150, Easing.Linear);
         }

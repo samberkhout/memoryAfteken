@@ -3,7 +3,6 @@ using memoryAfteken.Business;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Maui.Graphics; // For Color
 
 namespace memoryAfteken.Business
 {
@@ -33,46 +32,36 @@ namespace memoryAfteken.Business
         {
             var cards = new List<Card>();
 
-            // List of colors for card pairs
-            var colors = new List<Color>
+            // List of image file names for card pairs
+            var imageNames = new List<string>();
+            for (int i = 1; i <= 12; i++) // Assuming there are 12 images
             {
-                Colors.Red,
-                Colors.Green,
-                Colors.Blue,
-                Colors.Yellow,
-                Colors.Purple,
-                Colors.Orange,
-                Colors.Pink,
-                Colors.Brown,
-                Colors.Gray,
-                Colors.Teal,
-                Colors.Lime,
-                Colors.Cyan
-            };
+                imageNames.Add($"img{i}.jpg");
+            }
 
-            // Select only the number of colors required for the given number of pairs
-            colors = colors.Take(numberOfPairs).ToList();
+            // Select only the number of images required for the given number of pairs
+            imageNames = imageNames.Take(numberOfPairs).ToList();
 
-            // Create pairs of cards with the same color
+            // Create pairs of cards with the same image name
             for (int i = 0; i < numberOfPairs; i++)
             {
-                Color color = colors[i];
+                string imageName = imageNames[i];
 
                 var card1 = new Card
                 {
                     Id = i * 2,
-                    Value = color.ToHex(), // Use color hex code as value
+                    Value = (i + 1).ToString(),
                     IsFlipped = false,
                     IsMatched = false,
-                    Color = color // Store the color in the card
+                    ImageName = imageName // Assign image name
                 };
                 var card2 = new Card
                 {
                     Id = i * 2 + 1,
-                    Value = color.ToHex(),
+                    Value = (i + 1).ToString(),
                     IsFlipped = false,
                     IsMatched = false,
-                    Color = color
+                    ImageName = imageName
                 };
                 cards.Add(card1);
                 cards.Add(card2);
@@ -98,7 +87,6 @@ namespace memoryAfteken.Business
 
         public void FlipCard(int cardIndex)
         {
-            // Existing logic remains the same
             if (_cards[cardIndex].IsFlipped || _cards[cardIndex].IsMatched)
                 return;
 
@@ -137,7 +125,6 @@ namespace memoryAfteken.Business
 
         public async Task EndGameAsync(string playerName)
         {
-            // Existing logic remains the same
             var endTime = DateTime.Now;
             var timeTaken = (endTime - _startTime).TotalSeconds;
 

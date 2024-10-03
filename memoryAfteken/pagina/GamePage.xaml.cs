@@ -6,7 +6,6 @@ using Microsoft.Maui.Controls;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Maui.Graphics;
 
 namespace memoryAfteken.pagina
 {
@@ -64,10 +63,10 @@ namespace memoryAfteken.pagina
 
                     var card = _gameLogic.GetCards()[cardIndex];
 
-                    // Create the FlipCardView control with colors
+                    // Create the FlipCardView control with images
                     var flipCard = new FlipCardView(
-                        frontColor: card.Color,    // Use the card's color
-                        backColor: Colors.Blue     // Use blue for the back of the card
+                        frontImageSource: card.ImageName,    // Use the card's image name
+                        backImageSource: "back_of_card.png"  // Use back-of-card image
                     )
                     {
                         CardIndex = cardIndex,
@@ -105,7 +104,7 @@ namespace memoryAfteken.pagina
             _gameLogic.FlipCard(cardIndex);
             ScoreLabel.Text = $"Score: {_gameLogic.Score}";
 
-            // Perform the flip animation to show the front view
+            // Perform the flip animation to show the front image
             await flipCard.FlipToFront();
 
             // Check if this is the first or second card being flipped

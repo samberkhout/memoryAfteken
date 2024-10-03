@@ -312,3 +312,16 @@ C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\io
 C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\memoryAfteken.pdb
 C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\memoryAfteken.genruntimeconfig.cache
 C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\ref\memoryAfteken.dll
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img2.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img7.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img6.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img9.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img8.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img5.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img4.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img12.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img11.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img1.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img3.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\img10.jpg
+C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Resources\back_of_card.png
