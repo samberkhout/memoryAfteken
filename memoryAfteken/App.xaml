@@ -5,8 +5,6 @@
              x:Class="memoryAfteken.App">
     <Application.Resources>
         <ResourceDictionary>
-            <local:BooleanToColorConverter x:Key="BooleanToColorConverter" />
-            <local:InverseBooleanConverter x:Key="InverseBooleanConverter" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

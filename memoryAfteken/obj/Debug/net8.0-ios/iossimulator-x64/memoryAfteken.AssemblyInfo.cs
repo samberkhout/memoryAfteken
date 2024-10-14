@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("memoryAfteken")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+51e67a9173237f5a9b74caeedce44532edff2b09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+be8144bdb13c1f9f0c479759f13a8c2ca85eb6cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("memoryAfteken")]
 [assembly: System.Reflection.AssemblyTitleAttribute("memoryAfteken")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

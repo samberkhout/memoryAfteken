@@ -33,9 +33,6 @@ namespace memoryAfteken.Controls
                 Aspect = Aspect.AspectFill,
                 IsVisible = false
             };
-
-            // Add images to the grid
-            // Ensure _backImage is added before _frontImage
             Children.Add(_backImage);
             Children.Add(_frontImage);
         }

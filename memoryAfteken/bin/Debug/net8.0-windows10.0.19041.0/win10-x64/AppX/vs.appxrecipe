@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-03T14:07:36.335</Modified>
+      <Modified>2024-10-14T12:49:16.495</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-10-03T13:37:36.575</Modified>
+      <Modified>2024-10-09T09:17:41.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\memoryAfteken.runtimeconfig.json">
       <PackagePath>memoryAfteken.runtimeconfig.json</PackagePath>
-      <Modified>2024-10-03T12:58:17.114</Modified>
+      <Modified>2024-10-09T09:17:41.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\memoryAfteken.dll">
       <PackagePath>memoryAfteken.dll</PackagePath>
-      <Modified>2024-10-03T14:07:35.435</Modified>
+      <Modified>2024-10-14T12:49:15.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>memoryAfteken.exe</PackagePath>
-      <Modified>2024-10-03T14:07:35.442</Modified>
+      <Modified>2024-10-14T12:49:15.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:12.684</Modified>
+      <Modified>2024-10-09T09:17:37.543</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:12.709</Modified>
+      <Modified>2024-10-09T09:17:37.568</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:12.742</Modified>
+      <Modified>2024-10-09T09:17:37.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:12.789</Modified>
+      <Modified>2024-10-09T09:17:37.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:13.003</Modified>
+      <Modified>2024-10-09T09:17:37.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,211 +83,263 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-10-03T12:58:15.450</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.441</Modified>
+      <Modified>2024-10-09T09:17:40.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.441</Modified>
+      <Modified>2024-10-09T09:17:40.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.441</Modified>
+      <Modified>2024-10-09T09:17:40.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.441</Modified>
+      <Modified>2024-10-09T09:17:40.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.440</Modified>
+      <Modified>2024-10-09T09:17:40.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.446</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.448</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.448</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.447</Modified>
+      <Modified>2024-10-09T09:17:40.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.450</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.450</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.450</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.449</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.449</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.449</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.449</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.448</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.448</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.448</Modified>
+      <Modified>2024-10-09T09:17:40.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.444</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.444</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.444</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.443</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.443</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.445</Modified>
+      <Modified>2024-10-09T09:17:40.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.445</Modified>
+      <Modified>2024-10-09T09:17:40.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.445</Modified>
+      <Modified>2024-10-09T09:17:40.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.445</Modified>
+      <Modified>2024-10-09T09:17:40.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.444</Modified>
+      <Modified>2024-10-09T09:17:40.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.446</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.446</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.446</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.446</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.445</Modified>
+      <Modified>2024-10-09T09:17:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.443</Modified>
+      <Modified>2024-10-09T09:17:40.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.442</Modified>
+      <Modified>2024-10-09T09:17:40.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.442</Modified>
+      <Modified>2024-10-09T09:17:40.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.442</Modified>
+      <Modified>2024-10-09T09:17:40.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.442</Modified>
+      <Modified>2024-10-09T09:17:40.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_of_card.scale-100.png">
+      <PackagePath>back_of_card.scale-100.png</PackagePath>
+      <Modified>2024-10-09T09:17:40.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.451</Modified>
+      <Modified>2024-10-09T09:17:40.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.451</Modified>
+      <Modified>2024-10-09T09:17:40.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.451</Modified>
+      <Modified>2024-10-09T09:17:40.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.451</Modified>
+      <Modified>2024-10-09T09:17:40.327</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-10-03T12:58:15.451</Modified>
+      <Modified>2024-10-09T09:17:40.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img1.scale-100.jpg">
+      <PackagePath>img1.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img10.scale-100.jpg">
+      <PackagePath>img10.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img11.scale-100.jpg">
+      <PackagePath>img11.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img12.scale-100.jpg">
+      <PackagePath>img12.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img2.scale-100.jpg">
+      <PackagePath>img2.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img3.scale-100.jpg">
+      <PackagePath>img3.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img4.scale-100.jpg">
+      <PackagePath>img4.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img5.scale-100.jpg">
+      <PackagePath>img5.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img6.scale-100.jpg">
+      <PackagePath>img6.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img7.scale-100.jpg">
+      <PackagePath>img7.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img8.scale-100.jpg">
+      <PackagePath>img8.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img9.scale-100.jpg">
+      <PackagePath>img9.scale-100.jpg</PackagePath>
+      <Modified>2024-10-09T09:17:40.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\memoryAfteken.deps.json">
       <PackagePath>memoryAfteken.deps.json</PackagePath>
-      <Modified>2024-10-03T13:37:36.306</Modified>
+      <Modified>2024-10-09T09:17:41.537</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -576,6 +628,14 @@
     <AppxPackagedFile Include="C:\Users\sambe\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\DataAccess\bin\Debug\net8.0\DataAccess.dll">
+      <PackagePath>DataAccess.dll</PackagePath>
+      <Modified>2024-10-14T12:47:25.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\Logic\bin\Debug\net8.0\Logic.dll">
+      <PackagePath>Logic.dll</PackagePath>
+      <Modified>2024-10-09T09:15:48.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

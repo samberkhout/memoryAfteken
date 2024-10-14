@@ -2,7 +2,7 @@
 using memoryAfteken.Models;
 using Microsoft.Maui.Controls;
 using System.Collections.Generic;
-using memoryAfteken.DataAccess;
+using DataAccess.DataAccess;
 using System.Threading.Tasks;
 
 namespace memoryAfteken.pagina;

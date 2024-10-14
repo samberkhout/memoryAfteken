@@ -1,11 +1,12 @@
 ﻿using memoryAfteken.Business;
 using memoryAfteken.Models;
-using memoryAfteken.DataAccess;
-using memoryAfteken.Controls;
+using DataAccess.DataAccess;
+
 using Microsoft.Maui.Controls;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using memoryAfteken.Controls;
 
 namespace memoryAfteken.pagina
 {
@@ -18,6 +19,8 @@ namespace memoryAfteken.pagina
         private int _firstCardIndex;
         private int _secondCardIndex;
         private bool _isProcessing = false;
+        private int _numberOfAttempts = 0; // Track number of attempts
+        private DateTime _startTime; // Track the start time
 
         public GamePage(int numberOfPairs)
         {
@@ -30,6 +33,8 @@ namespace memoryAfteken.pagina
         private void StartGame(int numberOfPairs)
         {
             _gameLogic.StartGame(numberOfPairs);
+            _startTime = DateTime.Now; // Record start time
+            _numberOfAttempts = 0; // Reset number of attempts
             ScoreLabel.Text = $"Score: {_gameLogic.Score}";
             CreateCardGrid();
         }
@@ -41,9 +46,10 @@ namespace memoryAfteken.pagina
             CardGrid.ColumnDefinitions.Clear();
 
             int totalCards = _gameLogic.GetCards().Count;
-            int numColumns = 4;
+            int numColumns = 4; // Adjust columns as needed
             int numRows = (int)Math.Ceiling((double)totalCards / numColumns);
 
+            // Add RowDefinitions and ColumnDefinitions
             for (int i = 0; i < numRows; i++)
             {
                 CardGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
@@ -62,24 +68,25 @@ namespace memoryAfteken.pagina
                         break;
 
                     var card = _gameLogic.GetCards()[cardIndex];
-
-                    // Create the FlipCardView control with images
+                    
                     var flipCard = new FlipCardView(
-                        frontImageSource: card.ImageName,    // Use the card's image name
-                        backImageSource: "back_of_card.png"  // Use back-of-card image
+                        frontImageSource: card.ImageName,    
+                        backImageSource: "back_of_card.png" 
                     )
                     {
                         CardIndex = cardIndex,
-                        WidthRequest = 80,
-                        HeightRequest = 100
+                        WidthRequest = 100,
+                        HeightRequest = 100,
+                        Margin = new Thickness(10)
                     };
-
-                    // Add tap gesture recognizer
+                    
+                    flipCard.HorizontalOptions = LayoutOptions.Center;
+                    flipCard.VerticalOptions = LayoutOptions.Center;
+                    
                     var tapGesture = new TapGestureRecognizer();
                     tapGesture.Tapped += OnCardTapped;
                     flipCard.GestureRecognizers.Add(tapGesture);
-
-                    // Add the FlipCardView to the grid
+                    
                     CardGrid.Add(flipCard, col, row);
                 }
             }
@@ -93,21 +100,19 @@ namespace memoryAfteken.pagina
             var flipCard = (FlipCardView)sender;
             int cardIndex = flipCard.CardIndex;
             var card = _gameLogic.GetCards()[cardIndex];
-
-            // If the card is already flipped or matched, ignore the tap
+            
             if (card.IsFlipped || card.IsMatched)
                 return;
 
             _isProcessing = true;
-
-            // Flip the card and update the score
+            
+            _numberOfAttempts++;
+            
             _gameLogic.FlipCard(cardIndex);
-            ScoreLabel.Text = $"Score: {_gameLogic.Score}";
-
-            // Perform the flip animation to show the front image
+            UpdateScore();
+            
             await flipCard.FlipToFront();
-
-            // Check if this is the first or second card being flipped
+            
             if (_firstButton == null)
             {
                 _firstButton = flipCard;
@@ -118,36 +123,30 @@ namespace memoryAfteken.pagina
             {
                 _secondButton = flipCard;
                 _secondCardIndex = cardIndex;
-
-                // Wait for a moment to show the second card
+                
                 await Task.Delay(500);
-
-                // Check if the second card matches the first card
+                
                 if (!_gameLogic.GetCards()[_firstCardIndex].IsMatched)
                 {
-                    // If not matched, flip both cards back
                     await _firstButton.FlipToBack();
                     await _secondButton.FlipToBack();
 
-                    // Flip the cards back in the game logic
+                  
                     _gameLogic.GetCards()[_firstCardIndex].IsFlipped = false;
                     _gameLogic.GetCards()[_secondCardIndex].IsFlipped = false;
                 }
-
-                // Reset for the next round of flipping
+                
                 _firstButton = null;
                 _secondButton = null;
-
-                // Update the score after processing the second card
-                ScoreLabel.Text = $"Score: {_gameLogic.Score}";
+                
+                UpdateScore();
 
                 _isProcessing = false;
             }
 
-            // Check if the game is over
             if (_gameLogic.GetCards().All(c => c.IsMatched))
             {
-                // Prompt the user for their name
+               
                 string playerName = await DisplayPromptAsync("Game Over", "Enter your name:", "OK", "Cancel", "Player", 10, Keyboard.Text);
 
                 if (string.IsNullOrWhiteSpace(playerName))
@@ -158,9 +157,20 @@ namespace memoryAfteken.pagina
                 await _gameLogic.EndGameAsync(playerName);
                 await DisplayAlert("Game Over", $"Your final score: {_gameLogic.Score}", "OK");
 
-                // Navigate to high scores page or reset the game
+                
                 await Navigation.PopAsync();
             }
         }
+
+        private void UpdateScore()
+        {
+            var timeTaken = (DateTime.Now - _startTime).TotalSeconds;
+            double calculatedScore = ((_gameLogic.GetCards().Count * _gameLogic.GetCards().Count) / (timeTaken * _numberOfAttempts)) * 1000;
+            _gameLogic.Score = (int)Math.Round(calculatedScore, 2);
+
+            // Update score label
+            ScoreLabel.Text = $"Score: {_gameLogic.Score}";
+        }
     }
 }
+

@@ -199,6 +199,9 @@
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\back_of_card.scale-100.png">
+      <PackagePath>back_of_card.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -213,6 +216,42 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img1.scale-100.jpg">
+      <PackagePath>img1.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img10.scale-100.jpg">
+      <PackagePath>img10.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img11.scale-100.jpg">
+      <PackagePath>img11.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img12.scale-100.jpg">
+      <PackagePath>img12.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img2.scale-100.jpg">
+      <PackagePath>img2.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img3.scale-100.jpg">
+      <PackagePath>img3.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img4.scale-100.jpg">
+      <PackagePath>img4.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img5.scale-100.jpg">
+      <PackagePath>img5.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img6.scale-100.jpg">
+      <PackagePath>img6.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img7.scale-100.jpg">
+      <PackagePath>img7.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img8.scale-100.jpg">
+      <PackagePath>img8.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img9.scale-100.jpg">
+      <PackagePath>img9.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\memoryAfteken\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\memoryAfteken.deps.json">
       <PackagePath>memoryAfteken.deps.json</PackagePath>
@@ -432,6 +471,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\.nuget\packages\microsoft.windowsappsdk\1.5.240627000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\DataAccess\bin\Debug\net8.0\DataAccess.dll">
+      <PackagePath>DataAccess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sambe\RiderProjects\memoryAfteken\Logic\bin\Debug\net8.0\Logic.dll">
+      <PackagePath>Logic.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sambe\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -90,7 +90,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="pictures\" />
+      <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+      <ProjectReference Include="..\Logic\Logic.csproj" />
     </ItemGroup>
 
 </Project>
